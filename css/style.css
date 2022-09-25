@@ -140,234 +140,46 @@ margin:7px ;
   font-family: 'Do Hyeon', sans-serif
 }
 
+*{
 
-
-
-
-
-
-
-
-
-
-
-/* responsive */
-@media (max-width:858px){
-
-  .container{
-    display: inline-block!important;
-    margin: 0px!important;
- 
-    padding: 0px!important;
-
-  }
-
-  nav{
-    display: inline-block;
-  }
-
-  #btn-position{
-  margin: 0px;
-
-
-
-}
-.rimg{
-  padding: 0px!important;
-  float:left !important;
-}
-
-.font-hyeon{
-  font-size: 50px!important;
-}
-
-
-}
-
-@media (max-width:1080px) {
-
-
-
-  .container{
-    display: inline-block!important;
-    margin: 0px!important;
- 
-    padding: 0px!important;
-
-  }
-
-  nav{
-    display: inline-block;
-  }
-
-  #btn-position{
-  margin-left: px;
-
-
-
-}
-
-.togglebutton{
-
-margin-right: px !important;
-
-
-}
-.rimg{
-  padding: 0px!important;
-  float:left !important;
-}
-
-.font-hyeon{
-  font-size: 50px!important;
+  clear: both!important;
 }
 
 #process{
-  padding: 0!important;
-  margin: 0;
- 
-height: 215vh;
-
-
-}
-
-.exp-container{
-height: 240vw;
-
-}
-.gradient-bg2{
-  margin-left: 0px!important;
-  margin-top: 50px!important;
-  height: 550px!important;
-}
-
-.gradient-bg1{
-  height: 550px!important;
-
-}
-
+  height: 100%;
 }
 
 
-/* responsive */
-@media (max-width:1080px) {
-
-  .container{
-    display: inline-block!important;
-    margin: 0px!important;
- 
-    padding: 0px!important;
-
-  }
-
-  nav{
-    display: inline-block;
-  }
-
-  #btn-position{
-  margin: 0px;
 
 
 
-}
-.rimg{
-  padding: 0px!important;
-  float:left !important;
-}
-
-.font-hyeon{
-  font-size: 50px!important;
-}
-
-
-}
-
-@media (max-width:1080px) {
 
 
 
-  .container{
-    display: inline-block!important;
-    margin: 0px!important;
- 
-    padding: 0px!important;
-
-  }
-
-  nav{
-    display: inline-block;
-  }
-
-  #btn-position{
-margin: 0px!important;
-padding: 0px;
 
 
 
-}
-
-.togglebutton{
-
-margin-right: 0px !important;
 
 
-}
-.rimg{
-  padding: 0px!important;
-  float:left !important;
-}
 
-.font-hyeon{
-  font-size: 50px!important;
-}
+
+
+
+
+
+
+
 
 #process{
-  padding: 0!important;
-  margin-left: px!important;
- 
-height: 215vh;
-
-
+  clear: both;
 }
 
-.exp-container{
-height: 240vw;
-
+div{
+  clear: both;
 }
-.gradient-bg2{
-  margin-left: 0px!important;
-  margin-top: 50px!important;
-  height: 550px!important;
-}
-
-.gradient-bg1{
-  height: 550px!important;
-
-}
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .rowpad{
-  height: 80vh!important;
+  height: vh!important;
   padding-left: 120px!important;
 }
 
@@ -375,24 +187,24 @@ height: 240vw;
 
  margin-right: 10px;
   background-image:linear-gradient(to right top,#806a86,#4E647C,#536679) ;
-height: 440px;
-padding-top: 50px!important;
-padding-left: 40px!important;
-width: 560px!important;
+height: 400px;
+/* padding-top: 50px!important;
+padding-left: 40px!important; */
+/* width: px!important;
 box-sizing: border-box;
 display: inline;
-   margin-right: 20px;
+   margin-right: 20px; */
 }
 .gradient-bg2{
 
-   margin-left: 10px;
-   margin-right: 0px;
+   /* margin-left: 10px;
+   margin-right: 0px; */
 background-image:linear-gradient(to right top,#4a617a,#475B6F,#806a86) ;
-height: 440px;
-padding-top: 50px!important;
+height: px;
+/* padding-top: 50px!important;
 padding-left: 40px!important;
-width: 560px!important;
-box-sizing: border-box;
+width:px!important; */
+
 display: inline;
 }
 
@@ -415,16 +227,18 @@ display: inline;
     }
 
 .exp-container{
-  height: 85vh;
+  height:100% ;
+  clear:both;
 }
 
 
 .green-section{
   background-color: #63CBC0;
-  height: 70vh;
+  height: 100%;
   margin: auto;
   padding-top: 50px;
   padding-bottom: 50px!important;
+    clear:both;
 }
 .material-symbols-outlined{
   font-size: 64px!important;
@@ -434,7 +248,7 @@ display: inline;
   background-color: #00245400!important;
   margin-right:20 px !important;
   border-radius: 0px!important ;
-
+  clear:both;
 }
 input [type="text"] ::-webkit-input-placeholder{
   color: rgb(255, 255, 255) !important;
@@ -446,4 +260,10 @@ input [type="text"] ::-webkit-input-placeholder{
 
 .box1{
   height:800 px!important;
+}
+
+.letest-work-container{
+
+  height: 100%;
+  clear: both!important;
 }
