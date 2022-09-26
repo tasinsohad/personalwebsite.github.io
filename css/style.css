@@ -38,7 +38,7 @@ background-image:linear-gradient(to right top,#806a86,#2E697D,#806a86) ;
 
   .rowsize{
 
-    height: 85vh;
+    height: 50vh;
   }
 
 /* .navbutton{
@@ -69,7 +69,7 @@ border: 3px solid white!important;
 /* for about section */
   .rowsize2{
 
-    height: 60vh;
+    height: vh!important;
   }
 
   .btn{
@@ -103,7 +103,7 @@ height: 270px;
 width: 270px! important;
 }
 
-.box-nevi{
+.box-nevy{
 display: inline-block;
 background-color:#002454 ;
 height: 270px;
@@ -124,7 +124,7 @@ width: 270px! important;
 }
 
 .col-md-3{
-margin:7px ;
+margin:px ;
 
 }
 
